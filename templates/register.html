@@ -77,17 +77,17 @@
         <h1>Register</h1>
         <form method="POST" style="display: flex; flex-direction: column; gap: 8px; max-width:400px">
             <div class="form-floating">
-                <textarea class="form-control" name="title" placeholder="Leave a comment here" 
-                id="title_texarea">{{email}}</textarea>
+                <textarea class="form-control" name="email" placeholder="Email" 
+                id="email_texarea">{{email}}</textarea>
                 <label for="title_texarea">Email</label>
             </div>
             <div class="form-floating">
-                <textarea class="form-control" name="content" placeholder="place a content here" 
-                id="content_textarea" style="height: 20px">{{username}}</textarea>
+                <textarea class="form-control" name="username" placeholder="Username" 
+                id="username_textarea" style="height: 20px">{{username}}</textarea>
                 <label for="content_textarea">Username</label>
             </div>            <div class="form-floating">
-                <textarea class="form-control" name="content" placeholder="place a content here" 
-                id="content_textarea" style="height: 20px">{{password}}</textarea>
+                <textarea class="form-control" name="password" placeholder="Password" 
+                id="password_textarea" style="height: 20px">{{password}}</textarea>
                 <label for="content_textarea">Password</label>
             </div>
             <button type="submit">Submit</button>
