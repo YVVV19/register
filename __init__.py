@@ -1,1 +1,1 @@
-from .db import Config, User
+from .db import Config, User, migrate
